@@ -1,0 +1,116 @@
+body,html{
+margin: 0;
+height: 100%;
+/*задаем размеры окна браузера*/
+}
+body{
+	display: flex;
+	/*делаем элемент flex,чтобы красиво располагать его */
+}
+.calc{
+	background-color: #7F7F7F;
+	width: 50%;
+	margin: auto;	/*сделать элемент посередине*/
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column; /* определяет напровление главной оси*/
+    justify-content: space-around; /*выравнивает элементы по главной оси*/
+    align-items: center; /*выравнивает элементы по поперечной оси*/
+    height: 85%;
+}
+.calc h1{
+	text-align: center;
+	background-color: #99D9EA;
+	border: 3px solid black;
+	 width: 90%;
+	 margin: 0;
+}
+.poneli{
+	background-color: #C3C3C3;
+	border: 3px solid black;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	height: 80%;
+	justify-content: space-around;
+	align-items: center;
+}
+.input{
+	background-color: #7F7F7F;
+	border: 3px solid black;
+	 width: 90%;
+	 height: 20%;
+}
+.input input{
+    background-color: #B5E61D;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 100px;
+    color: #29AF1E;
+	}
+.buttons{
+	background-color: #7F7F7F;
+ 	border: 3px solid black;
+ 	width: 90%;
+ 	height: 70%;
+    display: flex;
+    flex-wrap: wrap; /*определяет многострочность контейнера*/
+    justify-content: space-around;
+    align-items: center;
+}
+.actions{
+	background-color: #C3C3C3;
+ 	border: 3px solid black;
+ 	width: 95%;
+ 	height: 20%;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+
+}
+.actions button{
+	background-color: #7F7F7F;
+	height: 60px;
+	width: 30%;
+	font-size: 40px;
+}
+.numbers{
+background-color: #C3C3C3;
+	border: 3px solid black;
+	 width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.numbers button{
+	background-color: #7F7F7F;
+	height: 20%;
+	width: 30%;
+	font-size: 40px;
+	}	
+.numbers #button_0{
+	width: 63%;
+}
+.operations{
+	background-color: #C3C3C3;
+	border: 3px solid black;
+    width: 20%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+}
+.operations button{
+	background-color: #7F7F7F;
+	height: 20%;
+	width: 50%;
+	font-size: 40px;
+	line-height: 1.2;
+	padding: 0;
+}
